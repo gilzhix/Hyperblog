@@ -1,16 +1,24 @@
 body{
+        
         text-align:center;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 16px;
         color: #333;
+        background: #222831;
     }
     .container__header{
-        background: #33A;
-        color: white;
+        color: #393e46;
+        background: #ffd369;
         margin: 0;
-        padding: 0.5em ;
         font-weight: bold;
         box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.5);
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    .container__logo{
+        width: 30px;
+
     }
     .container__header--tagline{
         font-weight: normal;
@@ -23,6 +31,7 @@ body{
         text-align:left;
         border: 1px solid #DDD;
         margin: 0 auto;
+        
     }
     
     .container h1{
@@ -30,6 +39,7 @@ body{
     }
     .container__post{
         padding: 1em;
+        background-color: aliceblue;
 
     }
     
