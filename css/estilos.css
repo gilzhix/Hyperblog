@@ -30,6 +30,14 @@ body{
     }
     .container__post{
         padding: 1em;
+        padding-bottom: 0;
+
+    }
+    .container__footer{
+        background: #ffd369;
+        color: black;
+        text-align: center;
+        padding: 0.5em;
 
     }
     
